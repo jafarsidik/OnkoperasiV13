@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include onkoperasiv13 *.css
+recursive-include onkoperasiv13 *.csv
+recursive-include onkoperasiv13 *.html
+recursive-include onkoperasiv13 *.ico
+recursive-include onkoperasiv13 *.js
+recursive-include onkoperasiv13 *.json
+recursive-include onkoperasiv13 *.md
+recursive-include onkoperasiv13 *.png
+recursive-include onkoperasiv13 *.py
+recursive-include onkoperasiv13 *.svg
+recursive-include onkoperasiv13 *.txt
+recursive-exclude onkoperasiv13 *.pyc
